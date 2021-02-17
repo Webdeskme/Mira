@@ -1,0 +1,26 @@
+{
+  "name": "mira",
+  "version": "1.0.0",
+  "description": "VI",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webdeskme/Mira.git"
+  },
+  "keywords": [
+    "VI"
+  ],
+  "author": "Adam W. Telford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Webdeskme/Mira/issues"
+  },
+  "homepage": "https://github.com/Webdeskme/Mira#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}

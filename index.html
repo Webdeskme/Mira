@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mira</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+<body style="background: white;">
+    <h1>Mira</h1>
+	<input type="text" id="in" placeholder="Type here.">
+	<button id="sub">Submit</button>
+	<p id="con">Hello!<br></p>
+    <p>
+        We are using node <script>document.write(process.versions.node)</script>,
+        Chrome <script>document.write(process.versions.chrome)</script>,
+        and Electron <script>document.write(process.versions.electron)</script>.
+    </p>
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	<script src="jq.js"></script>
+	<script src="index.js"></script>
+	<script>if (window.module) module = window.module;</script>
+</body>
+</html>
